@@ -223,7 +223,7 @@
 			"font"			"HudFontSmall"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"		"west"
-			"labelText"			"   level"
+			"labelText"			" "
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -269,9 +269,9 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"46"
+			"xpos"			"=5"
 			"ypos"			"0"
-			"wide"			"50"
+			"wide"			"110"
 			"zpos"			"100"
 			"tall"			"16"
 			"visible"		"1"
@@ -281,7 +281,7 @@
 			"textAlignment"		"west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
-			"textinsetx"	"-7"
+			//"textinsetx"	"-7"
 
 			if_mini
 			{

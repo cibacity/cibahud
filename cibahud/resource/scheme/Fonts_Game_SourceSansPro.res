@@ -1599,8 +1599,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Nexa Numbers"
-				"tall"										"14"
+				"name"										"Source Sans Pro Black"
+				"tall"										"10"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -1609,7 +1609,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Nexa Numbers"
+				"name"										"Source Sans Pro Black"
 				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
