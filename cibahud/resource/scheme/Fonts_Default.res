@@ -1381,61 +1381,51 @@ Scheme
 				"dropshadow"	"0"
 			}
 		}
+		
 		"ChatFont"
 		{
 			"1"
 			{
-				"name"		"Source Sans Pro Black"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"		"480 599"
-				"dropshadow"	"1"
+				"name"			"TF2 Secondary" // Chat font
+				"tall"			"TF2 Secondary" // Chat fontsize
+				"weight"		"600" // Chat fontweight
+				"dropshadow"	"0" // Chat shadow
+				"antialias"		"1" // Chat antialias
 			}
 			"2"
 			{
-				"name"		"Source Sans Pro Black"
-				"tall"		"13"
-				"weight"	"700"
-				"yres"		"600 767"
-				"dropshadow"	"1"
+				"name"			"TF2 Secondary" // Chat font
+				"tall"			"TF2 Secondary" // Chat fontsize
+				"weight"		"600" // Chat fontweight
+				"dropshadow"	"0" // Chat shadow
+				"antialias"		"1" // Chat antialias
 			}
 			"3"
 			{
-				"name"		"Source Sans Pro Black"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"		"768 1023"
-				"dropshadow"	"1"
+				"name"			"TF2 Secondary" // Chat font
+				"tall"			"TF2 Secondary" // Chat fontsize
+				"weight"		"600" // Chat fontweight
+				"dropshadow"	"0" // Chat shadow
+				"antialias"		"1" // Chat antialias
 			}
 			"4"
 			{
-				"name"		"Source Sans Pro Black"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"		"1024 1199"
-				"dropshadow"	"1"
+				"name"			"TF2 Secondary" // Chat font
+				"tall"			"TF2 Secondary" // Chat fontsize
+				"weight"		"600" // Chat fontweight
+				"dropshadow"	"0" // Chat shadow
+				"antialias"		"1" // Chat antialias
 			}
 			"5"
 			{
-				"name"		"Source Sans Pro Black"
-				"tall"		"24"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"1"
+				"name"			"TF2 Secondary" // Chat font
+				"tall"			"TF2 Secondary" // Chat fontsize
+				"weight"		"600" // Chat fontweight
+				"dropshadow"	"0" // Chat shadow
+				"antialias"		"1" // Chat antialias
 			}
 		}
-		"ChatMiniFont"
-		{
-			"1"
-			{
-				"name"		"Source Sans Pro Black"
-				"tall"		"20"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
+		
 		MenuSmallestFont
 		{
 			"1"
@@ -2496,10 +2486,24 @@ Scheme
 	
 	CustomFontFiles
 	{
-		"8" 
+		"7" 
 		{
 			"font" 		"resource/scheme/fontfiles/Nexa Bold.otf"
 			"name" 		"Source Sans Pro Black"
+		}
+		
+		"8" 
+		{
+			"font" 		"resource/scheme/fontfiles/TF2secondary.ttf"
+			"name" 		"TF2 Secondary"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 	}
 }

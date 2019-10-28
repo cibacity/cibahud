@@ -317,47 +317,43 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Surface-Medium"
-				"tall"			"12"
-				"weight"		"700"
-				"yres"			"480 599"
-				"dropshadow"	"1"
+				"name"			"TF2 Secondary" // Chat font
+				"tall"			"TF2 Secondary" // Chat fontsize
+				"weight"		"200" // Chat fontweight
+				"dropshadow"	"0" // Chat shadow
+				"antialias"		"1" // Chat antialias
 			}
-
 			"2"
 			{
-				"name"			"Surface-Medium"
-				"tall"			"14"
-				"weight"		"700"
-				"yres"			"600 767"
-				"dropshadow"	"1"
+				"name"			"TF2 Secondary" // Chat font
+				"tall"			"TF2 Secondary" // Chat fontsize
+				"weight"		"200" // Chat fontweight
+				"dropshadow"	"0" // Chat shadow
+				"antialias"		"1" // Chat antialias
 			}
-
 			"3"
 			{
-				"name"			"Surface-Medium"
-				"tall"			"15"
-				"weight"		"700"
-				"yres"			"768 1023"
-				"dropshadow"	"1"
+				"name"			"TF2 Secondary" // Chat font
+				"tall"			"TF2 Secondary" // Chat fontsize
+				"weight"		"200" // Chat fontweight
+				"dropshadow"	"0" // Chat shadow
+				"antialias"		"1" // Chat antialias
 			}
-
 			"4"
 			{
-				"name"			"Surface-Medium"
-				"tall"			"17"
-				"weight"		"700"
-				"yres"			"1024 1199"
-				"dropshadow"	"1"
+				"name"			"TF2 Secondary" // Chat font
+				"tall"			"TF2 Secondary" // Chat fontsize
+				"weight"		"200" // Chat fontweight
+				"dropshadow"	"0" // Chat shadow
+				"antialias"		"1" // Chat antialias
 			}
-
 			"5"
 			{
-				"name"			"Surface-Medium"
-				"tall"			"22"
-				"weight"		"700"
-				"yres"			"1200 10000"
-				"dropshadow"	"1"
+				"name"			"TF2 Secondary" // Chat font
+				"tall"			"TF2 Secondary" // Chat fontsize
+				"weight"		"200" // Chat fontweight
+				"dropshadow"	"0" // Chat shadow
+				"antialias"		"1" // Chat antialias
 			}
 		}
 
