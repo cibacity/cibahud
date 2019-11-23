@@ -16,4 +16,5 @@
 //#base "../resource/scheme/Fonts_Game_Quake.res"
 //#base "../resource/scheme/Fonts_Game_Roboto.res"
 //#base "../resource/scheme/Fonts_Game_Surface.res"
+//#base "../resource/scheme/Fonts_Game_Bebas.res"
 #base "../resource/scheme/Fonts_Game_SourcesansPro.res"
