@@ -78,6 +78,38 @@
 		"MeterBG"									"Gray"
 	}
 	
+HudMatchStatus
+	{
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+	
+	HudRoundTimer
+	{
+		"fieldName" "HudRoundTimer"
+		"xpos"	"c-20"
+		"ypos"	"440"
+		"wide"	"120"
+		"tall"  "40"
+		"visible" "1"
+		"enabled" "1"
+		
+		"PaintBackgroundType"	"2"
+
+		"FlashColor" "HudIcon_Red"		
+
+		"icon_xpos"		"0"
+		"icon_ypos"		"2"
+		"digit_xpos"	"34"
+		"digit_ypos"	"2"
+	}
+	
 	FreezePanel
 	{
 		"fieldName"									"FreezePanel"
@@ -318,22 +350,22 @@
 		"tall"										"200"
 		"visible"									"1"
 		"enabled"									"1"
-		"separator_width"							"5"
-		"separator_height"							"5"
+		"separator_width"							"9"
+		"separator_height"							"7"
 		"height_offset"								"0"
 	}
 
 	WinPanel
 	{
-		"fieldName"									"WinPanel"
-		"visible"									"1"
-		"enabled"									"1"
-		"xpos"										"c-87"
-		"ypos"										"r53"
-		"zpos"										"20"
-		"wide"										"f0"
-		"tall"										"f0"
+		"fieldName"				"WinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-150"
+		"ypos"					"c5"
+		"wide"					"650"
+		"tall"					"800"
 	}
+
 	
 	ArenaWinPanel
 	{

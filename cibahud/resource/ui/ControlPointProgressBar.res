@@ -2,73 +2,64 @@
 {
 	"ControlPointProgressBar"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"ControlPointProgressBar"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"20"
-		"wide"										"100"
-		"wide_minmode"								"65"
-		"tall"										"65"
-		"tall_minmode"								"42"
-		"visible"									"0"
-		"enabled"									"1"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ControlPointProgressBar"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"20"
+		"wide"			"100"
+		"tall"			"65"
+		"visible"		"0"
+		"enabled"		"1"
 	}
-	
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
 	
 	"ProgressBar"
 	{
-		"ControlName"								"CircularProgressBar"
-		"fieldName"									"ProgressBar"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"ControlName"	"CircularProgressBar"
+		"fieldName"		"ProgressBar"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
-
+	
 	"Teardrop"
 	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"Teardrop"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"Teardrop"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"TeardropSide"
 	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"TeardropSide"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"TeardropSide"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
-
+	
 	"ProgressText"
 	{	
-		"ControlName"								"Label"
-		"fieldName"									"ProgressText"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"ControlName"	"Label"
+		"fieldName"		"ProgressText"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
-
+	
 	"Blocked"
 	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"Blocked"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"Blocked"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 }
