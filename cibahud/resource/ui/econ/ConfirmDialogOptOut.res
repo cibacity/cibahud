@@ -16,14 +16,32 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"DarkBG"
+		"bgcolor_override"	"ahudDarkerGrey"
+		
+		"BackColor"
+    	{
+    		"ControlName"		"EditablePanel"
+    		"fieldName"			"BackColor"
+    		"xpos"				"0"
+    		"ypos"				"0"
+    		"zpos"				"-1"
+    		"wide"				"300"
+    		"tall"	 			"250"
+    		"visible"			"1"
+    		"enabled"			"1"
+			"pinCorner"		"0"
+			"autoResize"	"0"
+			"PaintBackgroundType"	"2"
+			"border"			"ahudPanelBorder"
+			"bgcolor_override"	"ahudDarkerGrey"
+    	}
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"aBold16"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -35,8 +53,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"AllCaps"		"1"
-		"fgcolor_override" "Red"
 	}
 	
 	"ExplanationLabel"
@@ -56,8 +72,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"AllCaps"		"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "200 80 60 255"
 	}
 		
 	"CancelButton"
@@ -68,7 +83,7 @@
 		"ypos"			"185"
 		"zpos"			"20"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -78,7 +93,6 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"textinsety"	"2"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"cancel"
@@ -94,7 +108,7 @@
 		"ypos"			"185"
 		"zpos"			"20"
 		"wide"			"175"
-		"tall"			"25"
+		"tall"			"20"
 		"default"		"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -105,28 +119,11 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"textinsety"	"2"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"confirm"
-		
-		"AllCaps"		"1"
-		
-		"paintbackground"			"0"
-		
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
-		
-		"border_default"			"MaterialLightBG"
-		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
-
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "White"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 	}			
 	
 	"OptOutCheckbox"
@@ -149,6 +146,6 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"HudFontSmallest"
-		"selected_fgcolor_override" "Red"
+		"selected_fgcolor_override" "255 0 0 255"
 	}
 }

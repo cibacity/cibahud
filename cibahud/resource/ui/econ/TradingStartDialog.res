@@ -1,5 +1,3 @@
-#base "../../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/TradingStartDialog.res"
 {
 	"TradingStartDialog"
@@ -7,20 +5,19 @@
 		"fieldName"				"TradingStartDialog"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"	
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"f0"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"Background"
-		"border"				"NoBorder"
+		"xpos"					"c-200"
+		"ypos"					"80"
+		"wide"					"400"
+		"tall"					"300"
+		"bgcolor_override"		"ahudDarkerGrey"
+		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
+		"border"				"ahudPanelBorder"
 		
 		"button_kv"
 		{
-			"xpos"			"c-190"
-			"ypos"			"80"
+			"xpos"			"10"
+			"ypos"			"0"
 			"wide"			"350"
 			"tall"			"30"
 				
@@ -45,18 +42,6 @@
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				
-				"border_default"	"MaterialLightBG"
-				"border_armed"		"MaterialHypno"
-				"paintbackground"	"0"
-				
-				"defaultBgColor_override"	"Blank"
-				"armedBgColor_override"		"Blank"
-				"depressedBgColor_override" "Blank"
-
-				"defaultFgColor_override"	"White"
-				"armedFgColor_override"		"White"
-				"depressedFgColor_override" "White"
 			}
 			
 			"avatar"
@@ -81,34 +66,30 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
+		"font"			"aBold24"
 		"labelText"		"#TF_TradeStartDialog_Title"
 		"textAlignment"	"north"
-		"xpos"			"c-200"
-		"ypos"			"50"
+		"xpos"			"0"
+		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"400"
-		"tall"			"50"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
-		"AllCaps" 		"1"
+		"fgcolor_override" "ahudWhite"
 	}
 	
 	"PlayerListScroller"
 	{
 		"ControlName"	"ScrollableEditablePanel"
 		"fieldName"		"PlayerListScroller"
-		"xpos"			"c-190"
-		"ypos"			"175"
+		"xpos"			"10"
+		"ypos"			"80"
 		"wide"			"380"
 		"tall"			"130"
 		"PaintBackgroundType"	"2"
-		"border"	"MaterialDarkBG"
-		"paintbackground"	"0"
-		
 		"fgcolor_override"	"117 107 94 255"
 		"bgcolor_override"	"0 0 0 64"
 		
@@ -116,10 +97,10 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PlayerList"
-			"xpos"			"2"
+			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"190"
-			"tall"			"10"
+			"tall"			"130"
 			"visible"		"1"
 		}
 	}
@@ -130,8 +111,8 @@
 		"fieldName" 			"StatePanel0"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"xpos"					"c-200"
-		"ypos"					"120"
+		"xpos"					"0"
+		"ypos"					"50"
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
@@ -144,7 +125,7 @@
 			"labelText"		"#TF_TradeStartDialog_Select"
 			"textAlignment"	"north"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"10"
 			"zpos"			"-1"
 			"wide"			"400"
 			"tall"			"15"
@@ -152,8 +133,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "White"
-			"AllCaps" "1"
+			"fgcolor_override" "200 187 161 255"
 		}	
 
 		"subbutton0"
@@ -161,10 +141,10 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"subbutton0"
 			"xpos"			"100"
-			"ypos"			"30"
+			"ypos"			"50"
 			"zpos"			"1"
 			"wide"			"200"
-			"tall"			"40"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -173,37 +153,22 @@
 			"labelText"		"#TF_TradeStartDialog_SelectFriends"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"textinsety"	"3"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"friends"
-			"AllCaps"		"1"
-			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	"MaterialLightBG"
-			"border_armed"		"MaterialHypno"
-			"paintbackground"	"0"
-			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override" "Blank"
-
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"White"
-			"depressedFgColor_override" "White"
 		}
 		"subbutton1"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"subbutton1"
 			"xpos"			"100"
-			"ypos"			"80"
+			"ypos"			"90"
 			"zpos"			"1"
 			"wide"			"200"
-			"tall"			"40"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -212,26 +177,12 @@
 			"labelText"		"#TF_TradeStartDialog_SelectServer"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"textinsety"	"3"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"server"
-			"AllCaps"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	"MaterialLightBG"
-			"border_armed"		"MaterialHypno"
-			"paintbackground"	"0"
-			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override" "Blank"
-
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"White"
-			"depressedFgColor_override" "White"
 		}
 		"subbutton2"
 		{
@@ -241,7 +192,7 @@
 			"ypos"			"130"
 			"zpos"			"1"
 			"wide"			"200"
-			"tall"			"40"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -250,26 +201,12 @@
 			"labelText"		"#TF_TradeStartDialog_SelectProfile"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"textinsety"	"3"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"profile"
-			"AllCaps"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	"MaterialLightBG"
-			"border_armed"		"MaterialHypno"
-			"paintbackground"	"0"
-			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override" "Blank"
-
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"White"
-			"depressedFgColor_override" "White"
 		}
 	}
 	"StatePanel1"
@@ -278,8 +215,8 @@
 		"fieldName" 			"StatePanel1"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"xpos"					"c-200"
-		"ypos"					"130"
+		"xpos"					"0"
+		"ypos"					"50"
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
@@ -299,8 +236,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"AllCaps" 		"1"
-			"fgcolor_override" "White"
+			"fgcolor_override" "200 187 161 255"
 		}	
 		
 		"EmptyPlayerListLabel"
@@ -321,8 +257,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"AllCaps" 		"1"
-			"fgcolor_override" "White"
+			"fgcolor_override" "200 187 161 255"
 		}	
 	}
 	"StatePanel2"
@@ -331,8 +266,8 @@
 		"fieldName" 			"StatePanel2"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"xpos"					"c-200"
-		"ypos"					"130"
+		"xpos"					"0"
+		"ypos"					"50"
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
@@ -354,7 +289,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
-			"AllCaps"		"1"
 		}	
 		
 		"EmptyPlayerListLabel"
@@ -376,7 +310,6 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "200 187 161 255"
-			"AllCaps"		"1"
 		}	
 	}
 	"StatePanel3"
@@ -385,8 +318,8 @@
 		"fieldName" 			"StatePanel3"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"xpos"					"c-200"
-		"ypos"					"130"
+		"xpos"					"0"
+		"ypos"					"50"
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
@@ -407,8 +340,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "White"
-			"AllCaps"		"1"
+			"fgcolor_override" "200 187 161 255"
 		}	
 		
 		"URLHelpLabel"
@@ -429,8 +361,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "White"
-			"AllCaps"		"1"
+			"fgcolor_override" "ahudWhite"
 		}	
 		
 		"URLFailLabel"
@@ -451,8 +382,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "Red"
-			"AllCaps"		"1"
+			"fgcolor_override" "200 80 60 255"
 		}	
 		"URLSearchingLabel"
 		{
@@ -472,8 +402,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "Red"
-			"AllCaps"		"1"
+			"fgcolor_override" "200 80 60 255"
 		}	
 		
 		"URLEntry"
@@ -495,13 +424,12 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			"wrap"				"0"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"ahudWhite"
 			"bgcolor_override"	"0 0 0 60"
 			"paintbackgroundtype" "2"
 			"labelText"			""
 			"font"				"HudFontSmall"
 			"textAlignment"		"west"
-			"AllCaps"		"1"
 		}
 		
 		"subbutton0"
@@ -512,7 +440,7 @@
 			"ypos"			"150"
 			"zpos"			"1"
 			"wide"			"200"
-			"tall"			"30"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -521,26 +449,12 @@
 			"labelText"		"#TF_TradeStartDialog_ProfileGo"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"textinsety"	"3"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"url_ok"
-			"AllCaps"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-				
-			"border_default"	"MaterialLightBG"
-			"border_armed"		"MaterialHypno"
-			"paintbackground"	"0"
-				
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override" "Blank"
-
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"White"
-			"depressedFgColor_override" "White"
 		}
 	}
 	
@@ -548,11 +462,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c-50"
-		"ypos"			"330"
+		"xpos"			"150"
+		"ypos"			"250"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"30"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -561,25 +475,11 @@
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsety"	"3"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"cancel"
-		"AllCaps"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-			
-		"border_default"	"MaterialLightBG"
-		"border_armed"		"MaterialHypno"
-		"paintbackground"	"0"
-			
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
-
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "White"
 	}
 }

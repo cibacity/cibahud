@@ -13,11 +13,57 @@ Scheme
 		
 		"Background"										"30 30 30 255"
 		"DarkBG"											"15 15 15 75"
+		"darkBGnoTransparent"								"15 15 15 255"
+		"ahudDarkGrey"			"27 27 27 255"
 		"LightBGHover"										"40 40 40 255"
 		"LightBG"											"50 50 50 75"
 		"FullBlack"											"0 0 0 255"
 		"TransparentBlack"									"0 0 0 150"
 		"TransparentLightBlack"								"0 0 0 100"
+		
+		
+		"ahudBlue"				"72 112 125 255"
+		"ahudDarkBlue"			"46 73 82 255"
+		"ahudRed"				"158 64 61 255"
+		"ahudDarkRed"			"102 48 46 255"
+		
+		"ahudGreen"				"92 122 90 255"
+		"ahudDarkGreen"			"38 53 36 255"
+		"ahudYellow"			"169 123 53 255"
+		"ahudBrightYellow"		"218 165 32 255"
+		
+		"ahudWhite"				"242 242 242 255"
+		"ahudDullWhite"			"132 132 132 255"
+		
+		"ahudGrey"				"51 47 46 255"
+		"ahudDarkGrey"			"27 27 27 255"
+		"ahudDarkerGrey"		"22 22 22 255"
+		
+		"ahudBlack"				"17 17 17 255"
+		
+		
+		"bh_white"													"255 255 255 255"
+		"bh_white_t"												"255 255 255 150"
+		"bh_black"													"000 000 000 255"
+		"bh_lblue"													"000 153 255 255"
+		"bh_dgray"													"100 100 100 255"
+		"bh_gray"													"150 150 150 255"
+		"bh_gray_t"													"150 150 150 064"
+		"bh_lorange"												"243 157 048 255"
+		"bh_dorange"												"204 093 027 255"
+		"bh_orange"													"240 134 049 255"
+		"bh_orange_t"												"240 134 049 064"
+		"bh_green"													"077 116 085 255"
+		"bh_bgreen"													"050 205 050 255"
+		"bh_red"													"159 055 055 255"
+		"bh_bred"													"245 050 041 255"
+		"bh_red_t"													"159 055 055 128"
+		"bh_blue"													"101 122 140 255"
+		"bh_blue_t"													"101 122 140 128"
+		"bh_blank"													"000 000 000 000"
+		"bh_yellow"													"231 181 059 255"
+		
+		
 		
 		"White"												"255 255 255 255"
 		"Red"												"255 42 50 255"

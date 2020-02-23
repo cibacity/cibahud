@@ -16,14 +16,32 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"DarkBG"
+		"bgcolor_override"	"ahudDarkerGrey"
+		
+		"BackColor"
+    	{
+    		"ControlName"		"EditablePanel"
+    		"fieldName"			"BackColor"
+    		"xpos"				"0"
+    		"ypos"				"0"
+    		"zpos"				"-1"
+			"wide"				"300"
+			"tall"				"230"
+    		"visible"			"1"
+    		"enabled"			"1"
+			"pinCorner"		"0"
+			"autoResize"	"0"
+			"PaintBackgroundType"	"2"
+			"border"			"ahudPanelBorder"
+			"bgcolor_override"	"ahudDarkerGrey"
+    	}
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"EconFontMedium"
+		"font"			"aBold16"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -35,8 +53,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"AllCaps"		"1"
-		"fgcolor_override" "Red"
 	}
 	
 	"ExplanationLabel"
@@ -56,8 +72,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"AllCaps"		"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "200 80 60 255"
 	}
 
 	"ConfirmButton"
@@ -78,34 +93,16 @@
 		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"textinsety"	"2"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"confirm"
-		
-		"AllCaps"		"1"
-		
-		"paintbackground"			"0"
-		
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
-		
-		"border_default"			"MaterialLightBG"
-		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
-
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "White"
-	}
-
-	"Icon"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Icon"
-		"xpos"			"9999"
-	}	
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"			"Econ.Button.Border.Default"
+		"border_armed"				"Econ.Button.Border.Armed"
+		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
+		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
+		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
+		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+	}			
 }

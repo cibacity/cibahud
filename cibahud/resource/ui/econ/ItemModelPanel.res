@@ -1,5 +1,5 @@
 "Resource/UI/ItemModelPanel.res"
-{	
+{
 	"mouseoveritempanel"
 	{
 		"fieldName"				"mouseoveritempanel"
@@ -43,7 +43,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"bgcolor_override"		"Blank"
+		"bgcolor_override"		"0 0 0 0"
 
 		"itemmodelpanel"
 		{
@@ -94,10 +94,9 @@
 			"enabled"		"1"
 			"labelText"		"%itemname%"
 			"textAlignment"	"south"
-			"fgcolor"		"White"
+			"fgcolor"		"ahudWhite"
 			"centerwrap"	"1"
 		}
-		
 		"attriblabel"
 		{
 			"ControlName"	"CExLabel"
@@ -114,7 +113,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"south"
-			"fgcolor"		"White"
+			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
 		
@@ -122,22 +121,21 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
-			"font"			"CustomIcons10"
-			"xpos"			"35"
+			"font"			"ItemFontAttribSmall"
+			"xpos"			"37"
 			"ypos"			"28"
 			"zpos"			"2"
-			"wide"			"18"
-			"tall"			"18"
+			"wide"			"35"
+			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"R"
+			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"paintbackground"	"0"
-			"border"			"MaterialDarkBG"
-			"paintborder"		"1"
+			"bgcolor_override"		"ahudBlack"
+			"PaintBackgroundType"	"0"
 		}
 	
 		"paint_icon"
@@ -158,12 +156,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"quantitylabel"
-			"font"			"FontStorePrice"
-			"xpos"			"2"
-			"ypos"			"2"
+			"font"			"ItemFontAttribSmall"
+			"xpos"			"4"
+			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"18"
-			"tall"			"18"
+			"wide"			"10"
+			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -171,33 +169,29 @@
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"paintbackground"	"0"
-			"border"		"MaterialDarkBG"
-			"paintborder"	"1"
+			"bgcolor_override"		"ahudBlack"
+			"PaintBackgroundType"	"0"
 		}
 
 		"serieslabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"serieslabel"
-			"font"			"FontStorePrice"
-			"xpos"			"2"
-			"ypos"			"2"
+			"font"			"ItemFontAttribSmall"
+			"xpos"			"4"
+			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"22"
-			"tall"			"18"
+			"wide"			"17"
+			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
-			"fgcolor"		"200 80 60 255"
-			"auto_wide_tocontents"	"1"
-			"textinsetx"	"20"
-			"paintbackground"	"0"
-			"border"		"MaterialDarkBG"
-			"paintborder"	"1"
+			"fgcolor"		"200 180 60 255"
+			"bgcolor_override"		"0 40 30 255"
+			"PaintBackgroundType"	"0"
 		}
 
 		"matcheslabel"
@@ -236,6 +230,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
+		
 		"is_strange_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -244,9 +239,9 @@
 			"ypos"			"4"
 			"zpos"			"2"
 			"autoResize"	"0"
-			"pinCorner"		"16"
+			"pinCorner"		"0"
 			"wide"			"16"
-			"tall"			"0"
+			"tall"			"16"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -259,14 +254,14 @@
 			"ypos"			"4"
 			"zpos"			"2"
 			"autoResize"	"0"
-			"pinCorner"		"16"
+			"pinCorner"		"0"
 			"wide"			"16"
-			"tall"			"0"
+			"tall"			"16"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-
+		
 		"is_loaner_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -275,9 +270,9 @@
 			"ypos"			"4"
 			"zpos"			"2"
 			"autoResize"	"0"
-			"pinCorner"		"16"
+			"pinCorner"		"0"
 			"wide"			"16"
-			"tall"			"0"
+			"tall"			"16"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -293,7 +288,7 @@
 			"tall"			"18"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 200"
-			"noitem_textcolor"		"NoItemText"
+			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"useparentbg"	"0"
@@ -320,6 +315,4 @@
 			"use_item_sounds"	"1"
 		}
 	}
-
-
 }

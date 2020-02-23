@@ -1,4 +1,5 @@
 #base "../../resource/tools/ReloadMenuButton.res"
+#base "../../resource/preload.res"
 
 "Resource/UI/MainMenuOverride.res"
 {

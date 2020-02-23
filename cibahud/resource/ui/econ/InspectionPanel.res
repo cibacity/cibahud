@@ -1,102 +1,33 @@
-#base "../../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/econ/QuestEditorPanel.res"
 {
 	"BGImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGImage"
-		"xpos"			"99999"
-	}
-	
-	"MainBackground"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MainBackground"
-		"xpos"			"0"
+		"xpos"			"cs-0.5"
 		"ypos"			"0"
-		"zpos"			"-5"
-		"wide"			"f0"
-		"tall"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"1"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"Background"
-		"border"				"NoBorder"
-		
-		"consume_mode"
-		{
-			"wide"			"0"
-		}
-	}
-	
-	"BackgroundWeapon"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"BackgroundWeapon"
-		"xpos"					"c-160"
-		"ypos"					"c-200"
-		"zpos"					"1"
-		"wide"					"317"
-		"tall"					"220"
-		"visible"				"1"
-		"enabled"				"1"
-		"paintbackground"		"0"
-		"border"				"MaterialDarkBG"
-		
-		"fixed_item"
-		{
-			"ypos"				"c-160"
-		}
-		"consume_mode"
-		{
-			"xpos"				"50"
-			"ypos"				"38"
-			"wide"				"300"
-			"tall"				"200"
-			"border"			"MaterialBackground"
-		}
-	}
-	
-	"BackgroundSettings"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"BackgroundSettings"
-		"xpos"					"c-160"
-		"ypos"					"c28"
-		"zpos"					"1"
-		"wide"					"317"
-		"tall"					"100"
-		"visible"				"1"
-		"enabled"				"1"
-		"paintbackground"		"0"
-		"border"				"MaterialDarkBG"
-		
-		"fixed_item"
-		{
-			"xpos"				"9999"
-		}
-		"consume_mode"
-		{
-			"wide"				"0"
-		}
-	}
+		"zpos"			"1"
+		"wide"			"o1"
+		"tall"			"p0.75"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"item_carousel_bg"
+		"scaleImage"	"1"
+		"proportionaltoparent" "1"
+	}	
 	
 	"ItemName"
 	{		
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"ItemName"
 		"xpos"			"cs-0.5"
-		"ypos"			"0"
+		"ypos"			"6"
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"200"
 		"visible"		"1"
-		"bgcolor_override"		"Blank"
-		"noitem_textcolor"		"NoItemText"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"mouseinputenabled"	"0"
@@ -107,13 +38,8 @@
 		"paint_icon_hide" "1"
 		"model_hide"	"1"
 		"text_forcesize"	"4"
-		"name_only"	"1"
-		
-		"fixed_item"
-		{
-			"ypos"			"30"
-		}
-		
+		"name_only"		"1"
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -121,8 +47,8 @@
 			"inventory_image_type"	"1"
 			"continued_velocity"	"1"
 		}
-	}
-
+	}	
+	
 	"ModelInspectionPanel"
 	{
 		"fieldName"		"ModelInspectionPanel"
@@ -142,12 +68,7 @@
 		"max_pitch"				"30"
 		"use_pedestal"			"1"
 		"use_particle"			"1"
-		"fov"					"85"
-		
-		"fixed_item"
-		{
-			"ypos"				"45"
-		}
+		"fov"					"75"
 
 		"model"
 		{
@@ -202,11 +123,11 @@
 	{
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"TeamNavPanel"
-		"xpos"				"c-140"
-		"ypos"				"250"
+		"xpos"				"cs-0.5"
+		"ypos"				"p.7-16"
 		"zpos"				"100"
 		"wide"				"60"
-		"tall"				"0"
+		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -218,16 +139,7 @@
 		"selected_button_default"	"0"
 		"auto_layout_vertical_buffer"	"-4"
 		"display_vertically"	"0"
-		"align"				"center"
-		
-		"consume_mode"
-		{
-			"xpos"				"c-140"
-			"ypos"				"280"
-			"zpos"				"100"
-			"wide"				"60"
-			"tall"				"25"
-		}
+		"align"				"west"
 		
 		"ButtonSettings"
 		{
@@ -242,10 +154,10 @@
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
 			
-			"fgcolor"			"TanDark"
-			"defaultFgColor_override" "TanDark"
-			"armedFgColor_override" "TanDark"
-			"depressedFgColor_override" "TanDark"
+			"fgcolor"			"ahudDullWhite"
+			"defaultFgColor_override" "ahudDullWhite"
+			"armedFgColor_override" "ahudDullWhite"
+			"depressedFgColor_override" "ahudDullWhite"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -253,7 +165,7 @@
 			
 			"paintbackground"	"0"
 			"paintbackgroundtype"	"0"
-			"defaultBgColor_Override"	"Black"
+			"defaultBgColor_Override"	"0 0 0 255"
 			
 			"paintborder"		"0"
 			
@@ -317,7 +229,7 @@
 		"wide"			"300"
 		"tall"			"100"
 		"zpos"			"100"
-		"border"		"NoBorder"
+		"border"		"MainMenuBGBorder"
 		"mouseinputenabled"	"1"
 		"proportionaltoparent"	"1"
 
@@ -335,7 +247,7 @@
 		}
 		"consume_mode"
 		{
-			"border"		"MaterialBackground"
+			"border"		"ReplayHighlightBorder"
 		}
 
 		"DebugButton"
@@ -366,12 +278,12 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "Blank"
-			"armedFgColor_override" "Red"
-			"depressedFgColor_override" "Black"
+			"defaultFgColor_override" "0 0 0 0"
+			"armedFgColor_override" "200 80 60 255"
+			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"TanDark"
-			"image_armedcolor"	"255 42 50 255"
+			"image_drawcolor"	"ahudDullWhite"
+			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -418,13 +330,13 @@
 				"visible"	"0"
 			}
 		
-			"fgcolor_override"	"White"
-			"bgcolor_override"	"Blank"
-			"disabledFgColor_override" "White"
-			"disabledBgColor_override" "Blank"
-			"selectionColor_override" "Blank"
-			"selectionTextColor_override" "White"
-			"defaultSelectionBG2Color_override" "Blank"
+			"fgcolor_override"	"ahudWhite"
+			"bgcolor_override"	"0 0 0 0"
+			"disabledFgColor_override" "ahudWhite"
+			"disabledBgColor_override" "0 0 0 0"
+			"selectionColor_override" "0 0 0 0"
+			"selectionTextColor_override" "ahudWhite"
+			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
 
 		"PaintkitLabel"
@@ -442,8 +354,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
-			"AllCaps"	"1"
+			"fgcolor_override"	"ahudWhite"
 
 			"fixed_paintkit"
 			{
@@ -485,20 +396,20 @@
 
 			"proportionaltoparent"	"1"
 		
-			"fgcolor_override"	"White"
-			"bgcolor_override"	"Blank"
-			"disabledFgColor_override" "TanDark"
-			"disabledBgColor_override" "Blank"
-			"selectionColor_override" "Blank"
-			"selectionTextColor_override" "White"
-			"defaultSelectionBG2Color_override" "Blank"
+			"fgcolor_override"	"ahudWhite"
+			"bgcolor_override"	"0 0 0 0"
+			"disabledFgColor_override" "ahudDullWhite"
+			"disabledBgColor_override" "0 0 0 0"
+			"selectionColor_override" "0 0 0 0"
+			"selectionTextColor_override" "ahudWhite"
+			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
 
 		"ItemLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"HudFontSmallest"
+			"font"			"aRegular12"
 			"labelText"		"#TF_ItemPreview_ItemPreview"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -513,8 +424,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
-			"AllCaps"		"1"
+			"fgcolor_override"	"ahudWhite"
 
 			"fixed_item"
 			{
@@ -578,8 +488,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
-			"AllCaps"		"1"
+			"fgcolor_override"	"ahudWhite"
 
 			"fixed_paintkit"
 			{
@@ -596,7 +505,7 @@
 		{
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
-			"xpos"			"7"
+			"xpos"			"8"
 			"ypos"			"75"
 			"fixed_item"
 			{
@@ -614,29 +523,15 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_ItemPreview_PaintkitSeed"
-			"font"			"HudFontSmallestBold"
 			"actionsignallevel" "2"
 			"use_proportional_insets" "1"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"keyboardinputenabled"	"0"
-			"AllCaps"			"1"
-
-			"border_default"	"QuickplayBorderDark"
-			"border_armed"		"QuickplayBorderDark"
-			"paintbackground"	"1"
-			
-			"defaultBgColor_override"	"LightBG"
-			"armedBgColor_override"		"Main Theme"
-			"depressedBgColor_override" "Main Theme"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"White"
-			"depressedFgColor_override" "White"
 
 			"command"	"random_seed"
 
@@ -667,14 +562,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"White"
 			"actionsignallevel" "2"
 			"default"		"1"
 			"NumericInputOnly"	"1"
-			"bgcolor_override"	"0 0 0 200"
+			"defaultfgcolor_override"	"ahudWhite"
+			"defaultbgcolor_override"	"ahudBlack"
+			"selectedfgcolor_override"	"ahudBlack"
+			"selectedbgcolor_override"	"ahudWhite"
 			"maxchars"		"18"
-			
 
 			"consume_mode"
 			{
@@ -700,7 +595,7 @@
 			"wide"		"75"
 			"tall"		"20"
 			"labelText"			"#TF_ItemAd_ViewOnMarket"
-			"font"			"HudFontSmallestBold"
+			"font"			"aRegular10"
 			"textinsetx"		"0"
 			"textAlignment"	"center"
 		
@@ -709,12 +604,11 @@
 			"command"	"market"
 			"actionsignallevel" "2"
 			"RoundedCorners"	"0"
-			"AllCaps"			"1"
-			
-			"border_default"	"QuickplayBorderDark"
-			"border_armed"		"QuickplayBorderDark"
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"White"
+
+			"defaultFgColor_override"	"ahudWhite"
+			"armedFgColor_override"		"ahudWhite"
+
+			"border_default"	"NoBorder"
 
 			"defaultBgColor_override"	"72 103 32 255"
 			"armedBgColor_override"		"72 133 32 255"

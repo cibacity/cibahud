@@ -1,5 +1,3 @@
-#base "../../../../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/StoreViewCartPanel.res"
 {
 	"store_viewcart_panel"
@@ -17,28 +15,28 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"Background"
-		"infocus_bgcolor_override"		"Background"
-		"outoffocus_bgcolor_override"	"Background"
-		
+		"bgcolor_override"				"46 43 42 0"
+		"infocus_bgcolor_override"		"46 43 42 0"
+		"outoffocus_bgcolor_override"	"46 43 42 0"
+
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
-		
+		"titlebarbgcolor_override"				"ahudDarkGrey"
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
-		
+
 		"item_entry_kv"
 		{
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"580"
 			"tall"			"60"
-		
+
 			"itempanel"
 			{
 				"ControlName"	"CItemModelPanel"
@@ -48,24 +46,24 @@
 				"wide"			"400"
 				"tall"			"58"
 				"visible"		"1"
-				"bgcolor_override"		"Black"
-				"noitem_textcolor"		"NoItemText"
+				"bgcolor_override"		"0 0 0 255"
+				"noitem_textcolor"		"117 107 94 255"
 				"PaintBackgroundType"	"2"
 				"paintborder"	"0"
-				
+
 				"model_xpos"	"3"
 				"model_ypos"	"3"
 				"model_wide"	"80"
 				"model_tall"	"53"
-				
+
 				"text_xpos"		"110"
 				"text_ypos"		"24"
 				"text_wide"		"250"
 				"text_center"	"0"
 				"text_forcesize" "1"
-				
+
 				"name_only"		"1"
-				
+
 				"itemmodelpanel"
 				{
 					"use_item_rendertarget" "0"
@@ -73,22 +71,7 @@
 					"inventory_image_type"	"1"
 				}
 			}
-			
-			"BackgroundCustom"
-			{
-				"ControlName"			"EditablePanel"
-				"fieldName"				"BackgroundCustom"
-				"xpos"					"0"
-				"ypos"					"0"
-				"zpos"					"-1"
-				"wide"					"580"
-				"tall"					"60"
-				"visible"				"1"
-				"enabled"				"1"
-				"paintbackground"		"0"
-				"border"				"MaterialDarkBG"
-			}			
-			
+
 			"quantitylabel"
 			{
 				"ControlName"	"Label"
@@ -106,12 +89,35 @@
 				"enabled"		"1"
 				"labelText"		"%quantity%"
 			}
-			
+
 			"SeparatorLine"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SeparatorLine"
-				"xpos"			"9999"
+				"xpos"			"0"
+				"ypos"			"58"
+				"zpos"			"5"
+				"wide"			"580"
+				"tall"			"5"
+				"visible"		"0"
+				"enabled"		"0"
+				"image"			"loadout_solid_line"
+				"tileImage"		"1"
+			}
+			
+			"SeparatorLine2"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SeparatorLine2"
+				"xpos"			"0"
+				"ypos"			"58"
+				"zpos"			"5"
+				"wide"			"580"
+				"tall"			"2"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"ahudDullWhite"
+				"tileImage"		"1"
 			}
 
 			"RemoveButton"
@@ -122,7 +128,7 @@
 				"ypos"			"17"
 				"zpos"			"5"
 				"wide"			"100"
-				"tall"			"25"
+				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -131,29 +137,14 @@
 				"labelText"		"#Store_Remove"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"textinsety"	"2"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
-				"AllCaps"		"1"
 				"Command"		"remove"
-				"sound_depressed"		"UI/buttonclick.wav"
-				"sound_released"		"UI/buttonclickrelease.wav"
-				
-				"paintbackground"		"0"
-				
-				"defaultBgColor_override"	"Blank"
-				"armedBgColor_override"		"Blank"
-				"depressedBgColor_override"	"Blank"
-				
-				"defaultFgColor_override"	"White"
-				"armedFgColor_override"		"White"
-				"depressedFgColor_override"	"White"
-				
-				"border_default"			"MaterialLightBG"
-				"border_armed"				"MaterialHypno"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
 			}
-			
+
 			"PriceLabel"
 			{
 				"ControlName"	"Label"
@@ -170,47 +161,82 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%price%"
-				"fgcolor_override" "White"
+				"fgcolor_override" "ahudDullWhite"
 			}
 		}
 	}
-	
-	"BackgroundHeaderCustom"
+
+	"BackgroundHeader"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"BackgroundHeader2"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"-2"
-		"wide"										"f0"
-		"tall"										"120"
-		"visible"									"1"
-		"enabled"									"1"
-		"pinCorner"									"0"
-		"autoResize"								"0"
-		"PaintBackgroundType"						"2"
-		"border"									"NoBorder"
-		"bgcolor_override"							"Background"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundHeader"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_header"
+		"tileImage"		"1"
 	}
-	
-	"BackgroundFooterCustom"
+	"BackgroundHeader2"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"BackgroundFooter2"
-		"xpos"										"0"
-		"ypos"										"430"
-		"zpos"										"1"
-		"wide"										"f0"
-		"tall"										"62"
-		"visible"									"1"
-		"enabled"									"1"
-		"pinCorner"									"0"
-		"autoResize"								"0"
-		"PaintBackgroundType"						"2"
-		"border"									"NoBorder"
-		"bgcolor_override"							"Background"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundHeader2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"27 27 27 200"
+		"tileImage"		"1"
 	}
-	
+	"BackgroundFooter"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundFooter"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_header"
+		"tileImage"		"1"
+	}
+	"BackgroundFooter2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundFooter2"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"27 27 27 200"
+		"tileImage"		"1"
+	}
+	"FooterLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FooterLine"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"loadout_solid_line"
+		"scaleImage"	"1"
+	}
+
 	"ClientArea"
 	{
 		"ControlName"	"EditablePanel"
@@ -219,15 +245,23 @@
 		"ypos"			"55"
 		"wide"			"f0"
 		"tall"			"368"
-		"bgcolor_override"				"Background"
-		
+		"bgcolor_override"				"ahudDarkGrey"
+
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
-			"xpos"			"9999"
-		}				
-		
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"f0"
+			"tall"			"10"
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			"loadout_solid_line"
+			"scaleImage"	"1"
+		}
+
 		"CartItemsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -235,8 +269,8 @@
 			"font"			"HudFontMediumBold"
 			"labelText"		"%storecart%"
 			"textAlignment"	"west"
-			"xpos"			"c-296"
-			"ypos"			"40"
+			"xpos"			"c-300"
+			"ypos"			"25"
 			"zpos"			"1"
 			"wide"			"350"
 			"tall"			"20"
@@ -244,21 +278,43 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"AllCaps"		"1"
 		}
-		
+
 		"SeparatorLine"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SeparatorLine"
-			"xpos"			"9999"
-		}				
-		
+			"xpos"			"c-300"
+			"ypos"			"60"
+			"zpos"			"5"
+			"wide"			"600"
+			"tall"			"5"
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			"loadout_solid_line"
+			"tileImage"		"1"
+		}
+
+		"SeparatorLine2"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SeparatorLine2"
+			"xpos"			"c-300"
+			"ypos"			"60"
+			"zpos"			"5"
+			"wide"			"580"
+			"tall"			"2"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"ahudDullWhite"
+			"tileImage"		"1"
+		}
+
 		"EmptyCartLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"EmptyCartLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#Store_CartIsEmpty"
 			"textAlignment"	"center"
 			"xpos"			"c-300"
@@ -270,10 +326,8 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			"AllCaps"		"1"
-			"fgcolor_override"	"Red"
 		}
-		
+
 		"ItemListContainerScroller"
 		{
 			"ControlName"	"EditablePanel"
@@ -284,23 +338,22 @@
 			"wide"			"600"
 			"tall"			"240"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"White"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
-			"bgcolor_override"	"Background"
+			"fgcolor_override"	"ahudDullWhite"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
+			"bgcolor_override"	"ahudDarkGrey"
 			"autohide_buttons" "1"
-			
+
 			"Scrollbar"
 			{
-				"xpos"			"580"
-				"ypos"			"2"
-				"wide"			"6"
+				"xpos"			"586"
+				"wide"			"4"
 				"tall"			"240"
 				"zpos"			"1000"
-				
+
 				"Slider"
 				{
-					"PaintBackgroundType"	"2"
+					"PaintBackgroundType"	"1"
 				}
-				
+
 				"nobuttons"		"1"
 				"UpButton"
 				{
@@ -310,7 +363,7 @@
 					"tall"			"0"
 					"wide"			"0"
 				}
-				
+
 				"DownButton"
 				{
 					"ControlName"	"Button"
@@ -320,7 +373,7 @@
 					"wide"			"0"
 				}
 			}
-			
+
 			"ItemListContainer"
 			{
 				"ControlName"	"EditablePanel"
@@ -332,7 +385,7 @@
 				"tall"			"240"
 				"PaintBackgroundType"	"2"
 				"bgcolor_override"	"200 187 161 0"
-				
+
 				"FeaturedItemSymbol"
 				{
 					"ControlName"	"ImagePanel"
@@ -347,15 +400,15 @@
 					"image"			"store_special"
 					"scaleImage"	"1"
 				}
-				
+
 				"PurchaseFooter"
 				{
 					"ControlName"	"EditablePanel"
 					"fieldName"		"PurchaseFooter"
 					"wide"			"580"
 					"tall"			"110"
-					"bgcolor_override"	"Blank"	
-					
+					"bgcolor_override"	"0 0 0 0"
+
 					"EstimatedTotalLabel"
 					{
 						"ControlName"	"CExLabel"
@@ -372,7 +425,6 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"AllCaps"		"1"
 					}
 					"WashingtonStateSalesTaxLabel"
 					{
@@ -390,8 +442,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"AllCaps"		"1"
-						"fgcolor_override" "White"
+						"fgcolor_override" "ahudWhite"
 					}
 					"TotalSubtextLabelB"
 					{
@@ -409,10 +460,9 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"AllCaps"		"1"
-						"fgcolor_override" "White"
+						"fgcolor_override" "ahudWhite"
 					}
-					
+
 					"TotalPriceLabel"
 					{
 						"ControlName"	"Label"
@@ -428,128 +478,62 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"AllCaps"		"1"
 						"labelText"		"%totalprice%"
-						"fgcolor_override" "Red"
+						"fgcolor_override" "ahudWhite"
 					}
-					
 				}
 			}
 		}
-	}	
-	
+	}
+
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"3"
-		"ypos"			"r25"
+		"xpos"			"c-300"
+		"ypos"			"437"
 		"zpos"			"2"
-		"wide"			"110"
-		"tall"			"22"
+		"wide"			"200"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"keep shopping"
+		"labelText"		"#Store_ContinueShopping"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsety"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"AllCaps"		"1"
 		"Command"		"close"
-		"paintbackground"			"0"
-		
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
-		
-		"border_default"			"MaterialLightBG"
-		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "White"
-	}		
-	
 	"CheckoutButton"
 	{
-		"ControlName"								"CExButton"
-		"fieldName"									"CheckoutButton"
-		"xpos"										"r93"
-		"ypos"										"r25"
-		"zpos"										"2"
-		"wide"										"90"
-		"tall"										"22"
-		"autoResize"								"0"
-		"pinCorner"									"3"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"CHECKOUT"
-		"font"										"HudFontSmallBold"
-		"textAlignment"								"center"
-		"textinsety"								"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"default"									"0"
-		"Command"									"checkout"
-		
-		"paintbackground"			"0"
-		
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
-		
-		"border_default"			"MaterialLightBG"
-		"border_armed"				"MaterialHypno"
-		
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-		"depressedBgColor_override" "Blank"
+		"ControlName"	"CExButton"
+		"fieldName"		"CheckoutButton"
+		"xpos"			"c170"
+		"ypos"			"437"
+		"zpos"			"2"
+		"wide"			"130"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#Store_Checkout"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"checkout"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "White"
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	"BackgroundHeader"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"BackgroundHeader"
-		"wide"										"0"
-	}
-	"BackgroundFooter"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"BackgroundFooter"
-		"wide"										"0"
-	}
-	"FooterLine"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"FooterLine"
-		"wide"										"0"
-	}
 }
