@@ -58,60 +58,7 @@
 		}
 	}
 	
-	"CountdownLabel"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.1"
-		"wide"			"40"
-		"tall"			"40"
-		"zpos"			"5"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%countdown%"
-		"textAlignment"	"center"
-		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
-
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
-		}
-	}
 	
-	"CountdownLabelShadow"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
-		"xpos"			"cs-0.48"
-		"ypos"			"cs-0.08"
-		"wide"			"0"
-		"tall"			"0"
-		"zpos"			"4"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"wrap"			"0"
-		"labelText"		"%countdown%"
-		"textAlignment"	"center"
-		"fgcolor"		"Black"
-		"proportionaltoparent"	"1"
-
-	
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
-		}
-	}	
 
 	"FrontParticlePanel"
 	{
@@ -196,6 +143,53 @@
 		}
 	}	
 
+	"CountdownLabel"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"CountdownLabel"
+		"font"										"GameFont24Shadow"
+		"xpos"										"c-16"
+		"ypos"										"r40"
+		"wide"										"40"
+		"tall"										"40"
+		"zpos"										"5"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"0"
+		"enabled"									"1"
+		"wrap"										"0"
+		"labelText"									"%countdown%"
+		"textAlignment"								"center"
+		"proportionaltoparent"						"1"
+		"fgcolor"									"White"
+	
+		if_readymode
+		{
+			"xpos"									"300"
+			"ypos"									"130"
+		}
+	}
+
+	"CountdownLabelShadow"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"CountdownLabelShadow"
+		"font"										"GameFont24Blur"
+		"xpos"										"c-15"
+		"ypos"										"r39"
+		"wide"										"40"
+		"tall"										"18"
+		"zpos"										"2"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"0"
+		"enabled"									"1"
+		"wrap"										"0"
+		"labelText"									"%countdown%"
+		"textAlignment"								"center"
+		"fgcolor"									"Shadow"
+	}
+	
 	"RoundCounter"
 	{
 		"fieldName"		"RoundCounter"
