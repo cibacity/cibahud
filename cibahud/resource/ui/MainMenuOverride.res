@@ -663,57 +663,6 @@
 		}
 	}
 	
-	
-	"Vote"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Vote"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"15"
-		"wide"										"74"
-		"tall"										"35"
-		"visible"									"1"
-		
-		"pin_to_sibling" 							"Mute"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"3"
-			"ypos"									"-5"
-		"wide"										"74"
-		"tall"										"35"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"1"
-			"enabled"								"1"
-			"tabPosition"							"0"
-			"textinsetx"							"0"
-			"use_proportional_insets" 				"1"
-			"font"									"CustomIcons20"
-			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
-			"default"								"1"
-			
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-			
-			//"border_default"						"MaterialLightBG"
-			//"border_armed"							"MaterialHypno"
-			//"paintbackground"						"0"
-			
-			"fgcolor_override"			"255 255 255 255"
-			"defaultBgColor_override" 	"0 0 0 130"
-			"armedBgColor_override" 	"Main Theme"
-			"depressedBgColor_override" "80 150 255 130"
-		}
-	}
-	
 	"Mute"
 	{
 		"ControlName"								"EditablePanel"
@@ -764,17 +713,18 @@
 		}
 	}
 	
-	"Report"
+	"Vote"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"Report"
+		"fieldname"									"Vote"
 		"xpos"										"0"
 		"ypos"										"0"
+		"zpos"										"15"
 		"wide"										"74"
 		"tall"										"35"
 		"visible"									"1"
 		
-		"pin_to_sibling" 							"Vote"
+		"pin_to_sibling" 							"Mute"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 		
@@ -784,8 +734,8 @@
 			"fieldName"								"SubButton"
 			"xpos"									"3"
 			"ypos"									"-5"
-		"wide"										"74"
-		"tall"										"35"
+			"wide"									"74"
+			"tall"									"35"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
@@ -813,18 +763,19 @@
 		}
 	}
 	
-	"Achievements"
+	
+	
+	"minmodeOff"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"Achievements"
+		"fieldname"									"minmodeOff"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"15"
 		"wide"										"74"
 		"tall"										"35"
 		"visible"									"1"
 		
-		"pin_to_sibling" 							"Report"
+		"pin_to_sibling" 							"Vote"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 		
@@ -833,9 +784,9 @@
 			"ControlName"							"CExImageButton"
 			"fieldName"								"SubButton"
 			"xpos"									"3"
-			"ypos"									"-5"
-			"wide"										"74"
-			"tall"										"35"
+			"ypos"									"-2"
+			"wide"									"74"
+			"tall"									"32"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
@@ -843,7 +794,57 @@
 			"tabPosition"							"0"
 			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
-			"font"									"CustomIcons20"
+			"font"									"GameFont12"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			//"border_default"						"MaterialLightBG"
+			//"border_armed"							"MaterialHypno"
+			//"paintbackground"						"0"
+			
+			"fgcolor_override"			"255 255 255 255"
+			"defaultBgColor_override" 	"0 0 0 130"
+			"armedBgColor_override" 	"Main Theme"
+			"depressedBgColor_override" "80 150 255 130"
+		}
+	}
+	
+	"minmodeOn"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"minmodeOn"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"15"
+		"wide"										"74"
+		"tall"										"31"
+		"visible"									"1"
+		
+		"pin_to_sibling" 							"minmodeOff"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"3"
+			"ypos"									"-2"
+			"wide"										"74"
+			"tall"										"32"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"textinsetx"							"0"
+			"use_proportional_insets" 				"1"
+			"font"									"GameFont12"
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"

@@ -971,7 +971,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills2"
-			"font"			"GameFont48"
+			"font"			"GameFont40"
+			"font_minmode"			"GameFont30"
 			"labelText"		"%kills%"
 			"textAlignment"		"east"
 			"xpos"			"143"
@@ -988,7 +989,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths2"
-			"font"			"GameFont48"
+			"font"			"GameFont40"
+			"font_minmode"			"GameFont30"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"xpos"			"229"

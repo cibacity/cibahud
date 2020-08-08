@@ -53,7 +53,7 @@
 		"zpos"			"-2"
 		"wide"			"40"
 		"tall"			"20"
-		"fillcolor"		"Blank"
+		"fillcolor"		"0 0 0 0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -66,7 +66,7 @@
 		"zpos"			"-2"
 		"wide"			"40"
 		"tall"			"20"
-		"fillcolor"		"Blank"
+		"fillcolor"		"0 0 0 0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -75,7 +75,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"EnterName"
 		"font"			"NoveLight10"
-		"fgcolor"		"Blank"
+		"fgcolor"		"0 0 0 0"
         "textinsetx"	"0"
 		"use_proportional_insets" "1"
 		"xpos"			"0"
@@ -95,7 +95,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamenteLabel"
-		"font"			"Medium9"
+		"font"			"GameFont9"
 		"xpos"			"92"
 		"ypos"			"3"
 		"zpos"			"1"
@@ -115,7 +115,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"NoveMedium20"
+		"font"			"GameFont20"
 		"xpos"			"87"
 		"ypos"			"28"
 		"zpos"			"1"
@@ -148,7 +148,7 @@
 		"maxchars"		"5"
 		"NumericInputOnly"	"0"
 		"fgcolor_override"		"255 255 255 255"
-		"bgcolor_override"	"Blank"
+		"bgcolor_override"	"0 0 0 0"
 		"labelText"		    "%teamname%"
 		"textAlignment"		"center"
 	}
@@ -178,16 +178,16 @@
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"		    "NoveMedium14"
-		"fgcolor"		"Black"
+		"font"		    "GameFont14"
+		"fgcolor"		"0 0 0 255"
 
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "Black"
-		"armedFgColor_override" "Red"
-		"depressedFgColor_override" "Red"
+		"defaultFgColor_override" "0 0 0 255"
+		"armedFgColor_override" "245 54 64 255"
+		"depressedFgColor_override" "245 54 64 255"
 	}
 	"TournamentReadyButton"
 	{
@@ -208,15 +208,15 @@
 		"brighttext"	"0"
 		"command"		"teamready" 
 		"default"		"1"
-		"font"		    "NoveMedium14"
-		"fgcolor"		"Black"
+		"font"		    "GameFont14"
+		"fgcolor"		"0 0 0 255"
 
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "Black"
-		"armedFgColor_override" "Blue"
-		"depressedFgColor_override" "Blue"
+		"defaultFgColor_override" "0 0 0 255"
+		"armedFgColor_override" "18 127 220 255"
+		"depressedFgColor_override" "18 127 220 255"
 	}
 }

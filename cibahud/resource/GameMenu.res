@@ -67,16 +67,16 @@
 		"command"									"OpenPlayerListDialog"
 		"OnlyInGame" 								"1"
 	}
-	"Report"
+	"minmodeOff"
 	{
-		"label"										"a"
-		"command"									"OpenReportPlayerDialog"
+		"label"										"minmode 0"
+		"command"									"engine cl_hud_minmode 0"
 		"OnlyInGame"								"1"
 	}
-	"Achievements"
+	"minmodeOn"
 	{
-		"label"										"T"
-		"command"									"OpenAchievementsDialog"
+		"label"										"minmode 1"
+		"command"									"engine cl_hud_minmode 1"
 		"OnlyInGame"								"1"
 	}
 

@@ -57,8 +57,8 @@
 		"fieldName"									"PipesPresentPanel"
 		"xpos"										"c-15"
 		"xpos_minmode"								"0"
-		"ypos"										"c10"
-		"ypos_minmode"								"-40"
+		"ypos"										"c0"
+		"ypos_minmode"								"-52"
 		"zpos"										"1"
 		"wide"										"f0"
 		"tall"										"480"
@@ -84,8 +84,8 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			"font"									"GameFont22"
-			"font_minmode"							"GameFont16"
+			"font"									"GameFont14"
+			"font_minmode"							"GameFont12"
 			"fgcolor"   							"White"
 		}
 		
@@ -109,8 +109,8 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			"font"									"GameFont22Blur"
-			"font_minmode"							"GameFont16Blur"
+			"font"									"GameFont14Blur"
+			"font_minmode"							"GameFont10Blur"
 			"fgcolor"								"Shadow"
 		}
 

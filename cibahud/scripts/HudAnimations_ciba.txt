@@ -6,22 +6,24 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthValue				FgColor 	"Buffed Health" 					Accel 	0.0		0.075
 	Animate PlayerStatusHealthValue				FgColor 	"Buffed Health Pulse" 				Accel 	0.125	0.175
 	
-	Animate HealthBG							Alpha 		"0"									Accel 	0.0 	0.0
-	Animate HealthBuff							Alpha 		"255"								Accel 	0.0 	0.0
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"255"								Linear	0.0	0.0
+	
+	//Animate HealthBG								Alpha 		"0"									Accel 	0.0 	0.0
+	//Animate HealthBuff								Alpha 		"255"								Accel 	0.0 	0.0
 		
-	RunEvent HudHealthBonusPulseLoop			0.7
+	RunEvent HudHealthBonusPulseLoop				0.7
 	
 }
 
 event HudHealthBonusPulseLoop
 {
-	RunEvent HudHealthBonusPulse				0.0
+	RunEvent HudHealthBonusPulse					0.0
 }
 
 event HudHealthBonusPulseStop
 {
 
-	Animate PlayerStatusHealthValueShadow		Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthValueShadow			Alpha 		"255" 								Linear 	0.0 0.01
 	Animate PlayerStatusHealthValueShadow 		FgColor 	"0 0 0 255" 						Accel 	0.0 0.0
 
 	StopEvent HudHealthBonusPulse 				0.0
@@ -37,13 +39,17 @@ event HudHealthBonusPulseStop
 
 event HudHealthDyingPulse
 {
-	Animate PlayerStatusHealthValue				FgColor 	"Low Health" 						Linear 	0.0		0.075
-	Animate PlayerStatusHealthValue				FgColor 	"Low Health Pulse" 					Linear 	0.125 	0.175
+	Animate PlayerStatusHealthValue			FgColor 	"Health Numbers" 					Linear 	0.0		0.075
+	Animate PlayerStatusHealthValue			FgColor 	"Low Health Pulse" 					Linear 	0.125 	0.175
+	
+	//Animate	PlayerStatusHealthBonusImage 		Alpha		"255"								Linear 	0.0		0.075
+	//Animate	PlayerStatusHealthBonusImage 		Alpha		"0"									Linear	0.125	0.075
 	
 	Animate HealthBG							Alpha 		"0"									Accel 	0.0 	0.0
 	Animate HealthHurt							Alpha 		"255"								Accel 	0.0 	0.0
+	
 
-	RunEvent HudHealthDyingPulseLoop			0.4
+	RunEvent HudHealthDyingPulseLoop			0.3
 }
 
 event HudHealthDyingPulseLoop
@@ -56,7 +62,7 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse				0.0
 	StopEvent HudHealthDyingPulseLoop 			0.0
 	
-	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 					Linear 	0.0 	0.0
+	Animate PlayerStatusHealthvalue         	FgColor 	"Health Numbers" 						Accel 	0.0	0.0
 	
 	Animate HealthBG							Alpha 		"255"								Accel 	0.0 	0.0
 	Animate HealthHurt							Alpha 		"0"									Accel 	0.0 	0.0
@@ -159,14 +165,14 @@ event HudSpyDisguiseChanged
 
 event HudTournamentSetupPanelOpen
 {
-	Animate HudTournamentSetup					Position	"c-61 -50"							Linear 	0.0 	0.001
-	Animate HudTournamentSetup					Position	"c-61 25"							Spline 	0.001 	0.1
+	Animate HudTournamentSetup				Position	"c-90 -70"				Linear 	0.0 0.001
+	Animate HudTournamentSetup				Position	"c-90 47"				Spline 	0.001 0.2
 }
 
 event HudTournamentSetupPanelClose
 {
-	Animate HudTournamentSetup					Position	"c-61 25"							Linear 	0.0 	0.001
-	Animate HudTournamentSetup					Position	"c-61 -50"							Spline 	0.001 	0.6
+	Animate HudTournamentSetup				Position	"c-90 47"				Linear 	0.0 0.001
+	Animate HudTournamentSetup				Position	"c-90 -70"				Spline 	0.001 0.2
 }
 
 //====================================================================================================================

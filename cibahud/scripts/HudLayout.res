@@ -142,7 +142,7 @@ HudMatchStatus
 	{
 		"fieldName"									"CHudAccountPanel"
 		"xpos"         								"c-100"
-		"ypos"										"c10"
+		"ypos"										"c0"
 		"ypos_minmode"								"c10"
 		"wide"										"200"
 		"tall"  									"50"
@@ -155,7 +155,7 @@ HudMatchStatus
 	{
 		"fieldName"									"CHealthAccountPanel"
 		"xpos"										"c-153"
-		"xpos_minmode"								"c-107"
+		"xpos_minmode"								"c-96"
 		"ypos"										"r110"
 		"ypos_minmode"								"r160"
 		"wide"										"f0"
@@ -492,24 +492,25 @@ HudMatchStatus
 
 	HudTournament
 	{
-		"fieldName"									"HudTournament"
-		"visible"									"0"
-		"enabled"									"1"
-		"xpos"										"c-225"
-		"ypos"										"5"
-		"wide"										"450"
-		"tall"										"280"
+		"fieldName"				"HudTournament"
+		"visible"				"0"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"20"
+		"wide"					"f0"
+		"tall"					"480"
 	}
 
 	HudTournamentSetup
 	{
-		"fieldName"									"HudTournamentSetup"
-		"visible"									"0"
-		"enabled"									"1"
-		"xpos"										"c-70"
-		"ypos"										"-36"
-		"wide"										"140"
-		"tall"										"65"
+		"fieldName"				"HudTournamentSetup"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-90"
+		"ypos"					"-70"
+		"wide"					"f0"
+		"tall"					"480"
 	}
 
 	HudStopWatch
@@ -612,10 +613,12 @@ HudMatchStatus
 	}
 	HudTeamGoalTournament
 	{
-		"fieldName"									"HudTeamGoalTournament"
-		"visible"									"0"
-		"enabled"									"0"
-		"wide"										"0"
-		"tall"										"0"
+		"fieldName"		"HudTeamGoalTournament"
+		"visible"		"0"
+		"enabled"		"0"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
 	}
 }

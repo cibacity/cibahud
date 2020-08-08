@@ -2,13 +2,15 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"								"130"
-		"delta_item_start_y"						"1"
+		"delta_item_x"								"87"
+		"delta_item_x_minmode"						"92"
+		"delta_item_start_y"						"12"
 		"delta_item_end_y"							"15"
-		"PositiveColor"								"0 255 0 155"
-		"NegativeColor"								"255 0 0 155"
+		"PositiveColor"								"Health Numbers"
+		"NegativeColor"								"Health Numbers"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"GameFont18"
+		"delta_item_font"							"GameFont16"
+		"delta_item_font_minmode"					"GameFont12"
 	}
 	
 	"AccountValue"
@@ -33,8 +35,8 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"GameFont22"
-		"font_minmode"								"GameFont16"
+		"font"										"GameFont18"
+		"font_minmode"								"GameFont14"
 		"fgcolor"   								"White"
 	}
 	
@@ -57,8 +59,8 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"GameFont22Blur"
-		"font_minmode"								"GameFont16Blur"
+		"font"										"GameFont18Blur"
+		"font_minmode"								"GameFont14Blur"
 		"fgcolor"   								"Shadow"
 		
 		"pin_to_sibling" 							"AccountValue"
