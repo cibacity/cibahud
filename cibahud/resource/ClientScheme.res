@@ -1,4 +1,4 @@
-#base "../resource/scheme/Fonts_Default.res"
+#base "../resource/scheme/fonts.res"
 #base "../resource/scheme/Fonts_Icons.res"
 #base "../resource/scheme/Fonts_Crosshairs.res"
 #base "../resource/scheme/Colors.res"
@@ -10,11 +10,3 @@
 ////////////////////////////////////////////////////
 ////////////////////////////////////////////////////
 
-//#base "../resource/scheme/Fonts_Game_Nexa.res"
-//#base "../resource/scheme/Fonts_Game_Avenir.res"
-//#base "../resource/scheme/Fonts_Game_Neutra.res"
-//#base "../resource/scheme/Fonts_Game_Quake.res"
-//#base "../resource/scheme/Fonts_Game_Roboto.res"
-//#base "../resource/scheme/Fonts_Game_Surface.res"
-//#base "../resource/scheme/Fonts_Game_Bebas.res"
-#base "../resource/scheme/Fonts_Game_SourcesansPro.res"
