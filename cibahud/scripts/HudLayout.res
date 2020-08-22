@@ -325,7 +325,7 @@ HudMatchStatus
 		"IconColor"									"255 255 255 255"
 		"LocalPlayerColor"							"HUDBlack"
 
-		"BaseBackgroundColor"						"TransparentLightBlack"
+		"BaseBackgroundColor"						"0 0 0 0"
 		"LocalBackgroundColor"						"240 240 240 240"
 	}
 	
