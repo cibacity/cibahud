@@ -301,6 +301,8 @@ HudMatchStatus
 		}
 	}
 
+
+
 	HudDeathNotice
 	{
 		"fieldName" 								"HudDeathNotice"
@@ -324,8 +326,8 @@ HudMatchStatus
 		"TeamRed"									"Red"
 		"IconColor"									"255 255 255 255"
 		"LocalPlayerColor"							"HUDBlack"
-
-		"BaseBackgroundColor"						"TransparentLightBlack"
+//change "0 0 0 0" to "TransparentLightBlack" to get the killfeed background back
+		"BaseBackgroundColor"						"0 0 0 0"
 		"LocalBackgroundColor"						"240 240 240 240"
 	}
 	
