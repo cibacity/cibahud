@@ -326,11 +326,9 @@ HudMatchStatus
 		"TeamRed"									"Red"
 		"IconColor"									"255 255 255 255"
 		"LocalPlayerColor"							"HUDBlack"
-<<<<<<< HEAD
 
-=======
-//change "0 0 0 0" to "TransparentLightBlack" to get the killfeed background back
->>>>>>> 96f74c943221de890da9d85218a2421bdcc8899f
+		//change "0 0 0 0" to "TransparentLightBlack" to get the killfeed background back
+
 		"BaseBackgroundColor"						"0 0 0 0"
 		"LocalBackgroundColor"						"240 240 240 240"
 	}
