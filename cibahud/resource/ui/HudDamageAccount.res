@@ -9,8 +9,8 @@
 		"PositiveColor"								"Health Numbers"
 		"NegativeColor"								"Health Numbers"
 		"delta_lifetime"							"2"
-		"delta_item_font"							"GameFont22Shadow"
-		"delta_item_font_big"						"GameFont22Shadow"
+		"delta_item_font"							"GameFont24Shadow"
+		"delta_item_font_big"						"GameFont24Shadow"
 	}
 	
 	"DamageAccountValue"
@@ -30,7 +30,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"fgcolor"									"Health Numbers"
-		"font"										"GameFont22"
+		"font"										"GameFont24"
 		"font_minmode"								"GameFont16"
 	}
 	
@@ -51,7 +51,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"fgcolor"									"Shadow"
-		"font"										"GameFont22Blur"
+		"font"										"GameFont24Blur"
 		"font_minmode"								"GameFont16Blur"
 		
 		"pin_to_sibling" 							"DamageAccountValue"

@@ -260,7 +260,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"MenuMainTitle"
+		"font"			"GameFont24"
 		"fgcolor"		"HudOffWhite"
 	}
 	
@@ -304,7 +304,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"MenuSmallestFont"
+		"font"			"GameFont8"
 		"font_lodef"	"MenuSmallFont"
 		"fgcolor"		"white"
 	}
