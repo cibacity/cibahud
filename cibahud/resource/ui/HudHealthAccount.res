@@ -9,7 +9,7 @@
 		"PositiveColor"								"Health Numbers"
 		"NegativeColor"								"Health Numbers"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"GameFont22"
+		"delta_item_font"							"GameFont24"
 		"delta_item_font_minmode"					"GameFont16"
 	}
 }

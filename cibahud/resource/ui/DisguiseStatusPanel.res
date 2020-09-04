@@ -65,7 +65,7 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"DisguiseNameLabel"
-		"font"										"defaultsmall"
+		"font"										"DefaultSmall"
 		"fgcolor_override"   						"White"
 		"xpos"										"45"
 		"ypos"										"3"
@@ -86,7 +86,7 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"WeaponNameLabel"
-		"font"										"defaultsmall"
+		"font"										"DefaultSmall"
 		"fgcolor_override"   						"White"
 		"xpos"										"45"
 		"ypos"										"12"

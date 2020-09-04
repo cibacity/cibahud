@@ -22,6 +22,7 @@
 		"zpos"			"4"
 		"wide"			"26"
 		"tall"			"26"
+		"fgcolor"		"Health Numbers"
 		"visible"		"1"
 		"enabled"		"1"
 	}

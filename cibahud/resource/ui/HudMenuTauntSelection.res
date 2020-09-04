@@ -62,7 +62,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CancelLabel"
-		"font"										"SpectatorKeyHints"
+		"font"										"GameFont8"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"

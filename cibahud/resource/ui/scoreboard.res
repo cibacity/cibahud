@@ -186,7 +186,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"GameFont56"
+		"font"			"GameFont50"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"c-108"
@@ -210,7 +210,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"GameFont56"
+		"font"			"GameFont50"
 		"fgcolor"		"Black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -284,7 +284,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"GameFont56"
+		"font"			"GameFont50"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"textAlignment_minmode"		"west"
@@ -311,7 +311,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"GameFont56"
+		"font"			"GameFont50"
 		"fgcolor"		"Black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -903,7 +903,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"KillsLabel"
-			"font"			"GameFont36"
+			"font"			"GameFont24"
 			"labelText"		":"
 			"textAlignment"	"center"
 			"xpos"			"163"
