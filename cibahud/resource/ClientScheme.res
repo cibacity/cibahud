@@ -1,6 +1,6 @@
 #base "../resource/scheme/fonts.res"
 #base "../resource/scheme/Fonts_Icons.res"
-#base "../resource/scheme/Fonts_Crosshairs.res"
+#base "../resource/crosshairs/crosshair_scheme.res"
 #base "../resource/scheme/Colors.res"
 #base "../resource/scheme/Borders.res"
 
