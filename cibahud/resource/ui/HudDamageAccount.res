@@ -9,8 +9,10 @@
 		"PositiveColor"								"Health Numbers"
 		"NegativeColor"								"Health Numbers"
 		"delta_lifetime"							"2"
-		"delta_item_font"							"GameFont24"
+		"delta_item_font"							"GameFont20"
+		"delta_item_font_big"						"GameFont24"
 		"delta_item_font_minmode"					"GameFont16"
+		"delta_item_font_big_minmode"				"GameFont20"
 	}
 	
 	"DamageAccountValue"

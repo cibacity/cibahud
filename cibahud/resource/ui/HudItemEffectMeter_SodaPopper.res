@@ -6,28 +6,28 @@
 
 	"ItemEffectMeterLabel"
 	{
-		"ypos"					"83"
+		"ypos"					"66"
 	}
 
 	"ItemEffectMeter"
 	{
-		"ypos"					"82"
+		"ypos"					"65"
 	}
 
 	//== #base custom ===========================
 
 	"EffectMeterDivider25"
 	{
-		"ypos"	"82"
+		"ypos"	"0"
 	}
 
 	"EffectMeterDivider50"
 	{
-		"ypos"	"82"
+		"ypos"	"0"
 	}
 
 	"EffectMeterDivider75"
 	{
-		"ypos"	"82"
+		"ypos"	"0"
 	}
 }

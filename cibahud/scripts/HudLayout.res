@@ -209,26 +209,11 @@ HudMatchStatus
 		"visible" 									"0"
 		"enabled" 									"1"
 		"xpos"										"c-126"
-		"ypos"										"240"
-		"ypos_minmode"								"245"
-		"wide"	 									"200"
-		"tall"	 									"50"
-		"tall_minmode"	 							"50"
-		"priority"									"40"
-	}
-	
-	CSecondaryTargetID
-	{
-		"fieldName" 								"CSecondaryTargetID"
-		"visible" 									"0"
-		"enabled" 									"1"
-		"xpos"										"c-126"
 		"ypos"										"270"
-		"ypos_minmode"								"300"
-		"wide"	 									"200"
-		"tall"	 									"50"
-		"tall_minmode"	 							"50"
-		"priority"									"35"
+		"ypos_minmode"								"270"
+		"wide"	 									"252"
+		"tall"	 									"28"
+		"priority"									"40"
 	}
 	
 	CSpectatorTargetID
@@ -237,11 +222,25 @@ HudMatchStatus
 		"visible" 									"0"
 		"enabled" 									"1"
 		"xpos"										"c-126"
-		"ypos"										"330"
-		"wide"	 									"200"
-		"tall"	 									"50"
-		"tall_minmode"	 							"50"
+		"ypos"										"300"
+		"wide"	 									"252"
+		"tall"	 									"28"
 		"priority"									"40"
+		
+		"x_offset" 									"20"
+		"y_offset" 									"20"
+	}
+	
+	CSecondaryTargetID
+	{
+		"fieldName" 								"CSecondaryTargetID"
+		"visible" 									"0"
+		"enabled" 									"1"
+		"xpos"										"c-126"
+		"ypos"										"340"
+		"wide"	 									"252"
+		"tall"	 									"28"
+		"priority"									"35"
 	}
 	
 	"BuildingAnchor"
@@ -314,10 +313,10 @@ HudMatchStatus
 		"tall"	 									"468"
 
 		"MaxDeathNotices" 							"6"
-		"IconScale"	  								"0.35"
+		"IconScale"	  								"0.5"
 		"LineHeight"	  							"14"
 		"LineSpacing"	 							"0"
-		"CornerRadius"	  							"1"
+		"CornerRadius"	  							"0"
 		"RightJustify"	  							"1"
 		
 		"TextFont"									"GameFont11"
