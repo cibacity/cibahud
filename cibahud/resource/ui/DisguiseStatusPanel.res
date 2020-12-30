@@ -33,10 +33,10 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"DisguiseStatusBG"
-		"xpos"										"0"
+		"xpos"										"10"
 		"ypos"										"0"
 		"zpos"										"-1"
-		"wide"										"140"
+		"wide"										"120"
 		"tall"	 									"26"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -65,7 +65,7 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"DisguiseNameLabel"
-		"font"										"DefaultSmall"
+		"font"										"GameFont12"
 		"fgcolor_override"   						"White"
 		"xpos"										"45"
 		"ypos"										"3"
@@ -86,7 +86,7 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"WeaponNameLabel"
-		"font"										"DefaultSmall"
+		"font"										"GameFont12"
 		"fgcolor_override"   						"White"
 		"xpos"										"45"
 		"ypos"										"12"
@@ -107,9 +107,9 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"SpectatorGUIHealth"
-		"xpos"										"0"
-		"ypos"										"-2"
-		"ypos_minmode"								"0"
+		"xpos"										"12"
+		"ypos"										"2"
+		"ypos_minmode"								"2"
 		"wide"										"50"
 		"tall"										"50"
 		"visible"									"1"

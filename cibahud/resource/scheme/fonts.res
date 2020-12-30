@@ -348,28 +348,28 @@ Scheme
 			"1"
 			{
 				"name"										"Source Sans Pro Black"
-				"tall"      								"13"
+				"tall"      								"14"
 				"antialias" 								"1"
 				"yres"										"480 700"
 			}
 			"2"
 			{
 				"name"										"Source Sans Pro Black"
-				"tall"      								"16"
+				"tall"      								"18"
 				"antialias" 								"1"
 				"yres"										"701 899"
 			}
 			"3"
 			{
 				"name"										"Source Sans Pro Black"
-				"tall"     									"20"
+				"tall"     									"24"
 				"antialias" 								"1"
 				"yres"										"900 1000"
 			}
 			"4"
 			{
 				"name"										"Source Sans Pro Black"
-				"tall"      								"24"
+				"tall"      								"30"
 				"antialias" 								"1"
 				"yres"										"1001 10000"
 			}
@@ -418,6 +418,51 @@ Scheme
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+		}
+		
+		HudHintText
+		{
+			"1"
+			{
+				"name"		"Source Sans Pro Black"
+				"tall"		"14"
+				"weight"	"500"
+				"yres"	"480 599"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"Source Sans Pro Black"
+				"tall"		"15"	[$WIN32]
+				"tall"		"18"	[$X360]
+				"weight"	"500"
+				"yres"	"600 767"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"Source Sans Pro Black"
+				"tall"		"18"
+				"weight"	"500"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Source Sans Pro Black"
+				"tall"		"22"
+				"weight"	"500"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Source Sans Pro Black"
+				"tall"		"24"
+				"weight"	"500"
+				"yres"	"1200 10000"
 				"antialias"	"1"
 			}
 		}
