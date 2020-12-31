@@ -43,7 +43,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"-4"
+		"xpos"					"0"
 		"ypos"					"79"
 		"zpos"					"2"
 		"wide"					"160"
