@@ -279,7 +279,16 @@ Scheme
 				"blur"										"2"
 			}
 		}
-		
+		BlocksSharp64
+		{
+			"1"
+			{
+				"name"										"Blocks"
+				"tall"										"64"
+				"additive"									"0"
+				"antialias" 								"0"
+			}
+		}
 		Numbers14
 		{
 			"1"
@@ -308,6 +317,20 @@ Scheme
 				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
+			}
+		}
+		
+		CenterPrintText //should be MGE text
+		{
+			// note that this scales with the screen resolution
+			"1"
+			{
+				"name"		"Trebuchet MS" [!$OSX]
+				"name"		"Helvetica" [$OSX]
+				"tall"		"18"
+				"weight"	"900"
+				"antialias" "1"
+				"additive"	"1"
 			}
 		}
 		
@@ -1076,7 +1099,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
+		"SpectatorVerySmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ControlPointTimer"
 		{
 			"1"
@@ -1519,6 +1552,11 @@ Scheme
 		{
 			"font" 		"resource/scheme/fontfiles/Nexa Respawn.otf"
 			"name" 		"Nexa Respawn"
+		}
+		"13" 
+		{
+			"font" 		"resource/scheme/fontfiles/Blocks.ttf"
+			"name" 		"Blocks"
 		}
 	}
 }
