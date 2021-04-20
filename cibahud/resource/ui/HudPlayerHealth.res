@@ -56,6 +56,20 @@
 		"fgcolor"	    	         				"Health Numbers"
 	}
 	
+	"PlayerStatusHealthImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImage"
+		"xpos"			"c-260"
+		"ypos"			"3342"
+		"zpos"			"5"
+		"wide"			"43"	
+		"tall"			"41"
+		"visible"		"1" 
+		"enabled"		"1"
+		"scaleImage"	"1"	
+	}
+	
 	"PlayerStatusAnchor"
 	{
 		"ControlName"				         		"EditablePanel"
