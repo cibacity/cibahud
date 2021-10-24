@@ -41,6 +41,9 @@ Scheme
 		
 		"ahudBlack"				"17 17 17 255"
 		
+		"glitchhurt1"                           "255 255 0 255"
+		"glitchhurt2"                           "255 20 147 255"
+		"glitchhurt3"                           "100 190 179 255"
 		
 		"bh_white"													"255 255 255 255"
 		"bh_white_t"												"255 255 255 150"
