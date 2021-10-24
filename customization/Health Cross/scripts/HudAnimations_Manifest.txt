@@ -1,0 +1,13 @@
+hudanimations_manifest
+{
+	"file" "scripts/hudanimations.txt"
+	"file" "scripts/hudanimations_ciba.txt"
+//	"file" "scripts/hudanimations_health.txt"
+	"file" "scripts/hudanimations_healthcross.txt"
+	"file" "scripts/hudanimations_ammo.txt"
+//	"file" "scripts/hudanimations_ammoglitch.txt"
+//	"file" "scripts/hudanimations_ammoglitch_minmode.txt"
+	"file" "scripts/hudanimations_medic.txt"
+	"file" "resource/crosshairs/crosshair_animation.txt"
+	"file" "scripts/hudanimations_tf.txt"
+}
