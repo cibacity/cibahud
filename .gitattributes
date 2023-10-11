@@ -1,0 +1,7 @@
+# These filetypes should be recognized as VDF, not ReScript
+*.res linguist-language=vdf
+**/*.res linguist-detectable=true
+
+# Do not export these files on download
+# Don't ignore dev folder, backups are created there thru PowerScript
+{.gitattributes} export-ignore
